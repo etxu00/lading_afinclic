@@ -22,6 +22,9 @@
     .color_1 {
       color: var(--color-1) !important;
     }
+    .color_2 {
+      color: var(--color-2) !important;
+    }
     .init {
       background-image: url(assets/bg_1.jpg);
     }
@@ -112,18 +115,23 @@
       z-index: 1;
     }
     .servicios ul div {
-      background: var(--bs-white);
+      margin: -13rem 0 0 -4.5rem;
+    }
+    .card_custom,
+    .servicios ul div {
       padding: 1.75rem 6.5rem !important;
       border: 2px solid var(--color-2);
       border-radius: 3rem;
       font-size: 1.25rem;
-      margin: -13rem 0 0 -4.5rem;
     }
     .servicios ul .flex-row-reverse div {
       margin: -13rem -4.5rem 0 0;
     }
     .portafolio {
       background-image: url(assets/bg_3.jpg);
+    }
+    .nosotros {
+      background-image: url(assets/bg_4.jpg);
     }
     select {
       text-align: center;
@@ -138,6 +146,26 @@
       letter-spacing: 4px;
       text-transform: uppercase !important;
       max-width: 463px;
+    }
+    address:before {
+      content: url(assets/location.svg);
+      display: inline-block;
+      margin: 0 1rem 0 0;
+      width: 16px;
+    }
+    .img_app_2 {
+      left: 0;
+      filter: drop-shadow(1rem 0px 0px white);
+      width: 20vw;
+      top: 60px;
+    }
+    .custom3 {
+      margin: 0 0 3rem 11rem;
+      padding-left: 12rem !important;
+    }
+    .custom4 {
+      margin: 0 0 13rem 11rem;
+      padding-left: 20rem !important;
     }
   </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -293,7 +321,7 @@
         </div>
       </div>
     </div>
-    <section id="testimoniales" class="testimoniales text-white my-5 py-5">
+    <section id="testimoniales" class="testimoniales text-white mt-5 py-5">
       <div class="container my-5 py-5">
         <h2 class="fs-1 fw-normal">Testimoniales</h2>
         <div class="border rounded overflow-hidden">
@@ -357,21 +385,46 @@
       </div>
     </section>
   </section>
-  <section id="nosotros" class="d-none">
-    <p>
-      AfinClic nace de la integración de dos expertos, uno con más de 43 años operando prestamos en todo México y otro especialista en algoritmos de inteligencia artificial.
-    </p>
-    <p>
-      Ambos con la visión de mejorar la calidad de vida de sus clientes a través de experiencias financieras agradable que les permitan incrementar su patrimonio familiar.
-    </p>
-    <p>
-      Nuestra misión es otorgar prestamos a personas sin acceso al financiamiento formal de la forma más rápida, fácil y barata.
-    </p>
-    <p>
-      Queremos ser la plataforma de entrada al préstamo formal más usada en Latino América.
-    </p>
-    <p>1151 Kessler Dr, 79907, El Paso TX, USA.</p>
-    <p>José Clemente Orozco #329, Piso 26, C.P. 66278 SPGG, NL, México.</p>
+  <section id="nosotros" class="nosotros text-center py-5 color_2 fs-4">
+    <div class="container my-5 py-5">
+      <div class="position-relative">
+        <img class="position-absolute img_app_2" src="assets/app_2.png" alt="Imagen de la app">
+        <div class="card_custom custom3">
+          <p class="text-start">
+            <span class="d-block">AfinClic nace de la integración de dos expertos, uno con más de 43 años operando</span>
+            <span class="d-block">prestamos en todo México y otro especialista en algoritmos de inteligencia artificial.</span>
+          </p>
+          <p class="text-start">
+            <span class="d-block">Ambos con la visión de mejorar la calidad de vida de sus clientes a través de experiencias</span>
+            <span class="d-block">financieras agradable que les permitan incrementar su patrimonio familiar.</span>
+          </p>
+        </div>
+        <div class="card_custom custom4">
+          <p class="text-start">
+            <span class="d-block">Nuestra misión es otorgar prestamos a personas sin acceso al financiamiento</span>
+            <span class="d-block">formal de la forma más rápida, fácil y barata.</span>
+          </p>
+          <p class="text-start">
+            <span class="d-block">Queremos ser la plataforma de entrada al préstamo formal más usada en</span>
+            <span class="d-block">Latino América.</span>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5 pb-5">
+        <figure class="col-sm-12 col-md-6">
+          <img class="mb-3" src="assets/mex.svg" alt="Dirección de México" width="64">
+          <figcaption>
+            <address>José Clemente Orozco #329, Piso 26,<br>C.P. 66278 SPGG, NL, México.</address>
+          </figcaption>
+        </figure>
+        <figure class="col-sm-12 col-md-6">
+          <img class="mb-3" src="assets/usa.svg" alt="Dirección de USA" width="64">
+          <figcaption>
+            <address>1151 Kessler Dr, 79907,<br>El Paso TX, USA.</address>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
   </section>
   <section id="preguntas-frecuentes" class="d-none">
     <p>
