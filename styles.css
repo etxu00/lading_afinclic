@@ -203,6 +203,33 @@ section {
 .preguntas_frecuentes {
   padding: 34px 0 0 0;
 }
+.pt-c1 {
+  padding-top: 70px;
+}
+.move2 {
+  transform: translate(37px, -8px);
+}
+.move {
+  transform: translate(-77px, -40px);
+}
+.btn_2 {
+  background: linear-gradient(45deg, var(--color-2), var(--color-1));
+  padding: 20px 1rem;
+  border-radius: 2rem;
+  border: 2px solid var(--color-2);
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  letter-spacing: 9px;
+  font-size: 1.5rem;
+  margin: 0 -79px 0 0;
+  line-height: 1;
+  width: 508px;
+}
+
+
 
 .facebook {
   background-image: url(https://img.icons8.com/ios-glyphs/30/ffffff/facebook-f.png);
