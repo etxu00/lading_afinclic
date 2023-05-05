@@ -45,6 +45,9 @@
       top: 50%;
       transform: translateY(-50%);
     }
+    .btn_circle.color_2 {
+      border: 2px solid var(--color-2);
+    }
     .btn_circle {
       border-radius: 50%;
       border: 2px solid white;
@@ -432,7 +435,7 @@
       </div>
     </div>
     <section id="preguntas_frecuentes" class="preguntas_frecuentes">
-      <div class="container">
+      <div class="container mb-5">
         <p class="fw-bold pt-3 my-4 fs-2">
           Una aplicación móvil con algoritmos de inteligencia artificial que le permite casi a cualquier persona acceder a un
           préstamo formal y barato en 24 horas.
@@ -468,14 +471,24 @@
           </div>
         </div>
       </div>
+      <div class="container position-relative">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <img src="assets/call_to_action.png" alt="Abrir mi cuneta" width="800">
+          <div class="text-center">
+            <a class="btn_" href="#" target="_blank" rel="noopener noreferrer">Abrir mi cuenta</a>
+            <div class="d-flex align-items-center justify-content-center mt-3">
+              <img class="mx-2" src="assets/button_app_store.svg" alt="Botón de App store" width="200">
+              <img class="mx-2" src="assets/button_google_play.svg" alt="Botón de Google store" width="200">
+            </div>
+          </div>
+          <div class="position-absolute social_network">
+            <a class="btn_circle color_2" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a class="btn_circle color_2" href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a class="btn_circle color_2" href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+        </div>
+      </div>
     </section>
-  </section>
-  <section  class="d-none">
-    <aside>
-      <a href="#" target="_blank" rel="noopener noreferrer">Abrir mi cuenta</a>
-      <img src="assets/button_app_store.svg" alt="Botón de App store">
-      <img src="assets/button_google_play.svg" alt="Botón de Google store">
-    </aside>
   </section>
   <footer  class="d-none">
     <a href="#">Aviso de privacidad</a>
