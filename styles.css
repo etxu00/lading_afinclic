@@ -189,6 +189,20 @@ section {
   padding-top: 21px;
 }
 
+/* FAQ */
+.btn_faq {
+  background: linear-gradient(45deg, var(--color-1), transparent) !important;
+  border: 2px solid var(--color-2) !important;
+  border-radius: 2rem;
+  padding: 6px 36px !important;
+  width: 83%;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+.preguntas_frecuentes {
+  padding: 34px 0 0 0;
+}
 
 .facebook {
   background-image: url(https://img.icons8.com/ios-glyphs/30/ffffff/facebook-f.png);
@@ -282,8 +296,4 @@ address:before {
 .custom4 {
   margin: 0 0 13rem 11rem;
   padding-left: 20rem !important;
-}
-.btn_faq {
-  background: linear-gradient(45deg, var(--color-1), transparent) !important;
-  border: 2px solid var(--color-2) !important;
 }
