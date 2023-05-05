@@ -175,7 +175,19 @@ section {
   border-radius: 6rem;
 }
 
-
+/* NOSOTROS */
+.nosotros {
+  padding-top: 196px;
+}
+.img_app_2 {
+  left: 16px;
+  filter: drop-shadow(1rem 0px 0px white);
+  width: 20vw;
+  top: 50px;
+}
+.p-c {
+  padding-top: 21px;
+}
 
 
 .facebook {
@@ -262,12 +274,7 @@ address:before {
   margin: 0 1rem 0 0;
   width: 16px;
 }
-.img_app_2 {
-  left: 0;
-  filter: drop-shadow(1rem 0px 0px white);
-  width: 20vw;
-  top: 60px;
-}
+
 .custom3 {
   margin: 0 0 3rem 11rem;
   padding-left: 12rem !important;
