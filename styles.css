@@ -8,6 +8,14 @@ ul {
   padding: 0 !important;
   margin: 0 !important;
 }
+header {
+  border-bottom: 1px solid var(--color-1);
+}
+section {
+  min-height: 85.5vh;
+  position: relative;
+  background-size: cover;
+}
 .navbar-nav {
   transform: translateY(10px);
 }
@@ -129,8 +137,25 @@ ul {
   background-image: url(assets/bg_3.jpg);
   padding: 186px 0 0 0;
 }
-
-
+.portafolio img {
+  transform: translate(-203px, 17px);
+}
+.portafolio select {
+  background: linear-gradient(45deg, var(--color-1), transparent);
+  border-radius: 2rem;
+  border: 2px solid var(--color-1);
+  color: var(--bs-white);
+  font-size: 1.5rem !important;
+  letter-spacing: 4px;
+  max-width: 463px;
+  padding: 11px 0;
+  text-align: center;
+  text-transform: uppercase !important;
+  width: 100%;
+}
+.portafolio .row:not(:last-child) {
+  margin-bottom: 55px;
+}
 
 
 
@@ -171,15 +196,6 @@ ul {
   border-right: 3px solid white;
 }
 
-
-header {
-  border-bottom: 1px solid var(--color-1);
-}
-section {
-  min-height: 85.5vh;
-  position: relative;
-  background-size: cover;
-}
 .color_1 {
   color: var(--color-1) !important;
 }
@@ -226,20 +242,6 @@ section {
 
 .bg_final {
   background-image: url(assets/bg_4.jpg);
-}
-select {
-  text-align: center;
-  width: 100%;
-  margin: 1rem;
-  padding: 1rem;
-  border: 2px solid var(--color-1);
-  border-radius: 2rem;
-  background: linear-gradient(45deg, var(--color-1), transparent);
-  color: var(--bs-white);
-  font-size: 1.5rem !important;
-  letter-spacing: 4px;
-  text-transform: uppercase !important;
-  max-width: 463px;
 }
 address:before {
   content: url(assets/location.svg);
